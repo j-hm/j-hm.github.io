@@ -1,0 +1,44 @@
+.contactLayout {
+  padding-top: 130px;
+  height: 55vh;
+  text-align: center;
+  background: rgb(17, 25, 44);
+  background: linear-gradient(
+    120deg,
+    rgba(17, 25, 44, 1) 10%,
+    rgba(174, 180, 198, 1) 21%,
+    rgba(37, 54, 52, 1) 36%,
+    rgba(37, 54, 52, 1) 76%,
+    rgba(36, 67, 158, 1) 86%,
+    rgba(146, 161, 207, 1) 100%
+  );
+  position: relative;
+  color: white;
+}
+
+.contactLayout div p,
+.contactLayout div address {
+  margin-bottom: 10px;
+}
+
+.custom-shape-divider-top-1639237886 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1639237886 svg {
+  width: calc(185% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1639237886 .shape-fill {
+  fill: #ffffff;
+}
+
+.contactText h2 {
+  margin-bottom: 3.5%;
+}

@@ -1,0 +1,49 @@
+.projectLayout {
+  height: 80vh;
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+.projects {
+  display: flex;
+  margin: 50px 0px;
+}
+
+.projectBox {
+  width: 300px;
+  margin: auto;
+}
+.projectBox img {
+  max-width: 200px;
+  max-height: 185px;
+  margin-bottom: 20px;
+}
+.projectBox p {
+  text-align: start;
+  margin: 5px;
+}
+.projectBox p:nth-of-type(1) {
+  color: #24439e;
+  font-size: small;
+}
+.projectBox p:nth-of-type(3) {
+  color: #92a1cf;
+  font-size: small;
+}
+
+.projectBox button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 8px;
+  margin: 3px;
+  width: 100%;
+  background-color: #24439e;
+  color: white;
+}
+
+.projectBox button:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #eee;
+  color: #24439e;
+}

@@ -1,0 +1,31 @@
+.homeLayout {
+  background: url("../img/main_image.jpg");
+  background-size: 100% 100%;
+  height: 80vh;
+  position: relative;
+  display: block;
+}
+.homeText {
+  color: white;
+  position: absolute;
+  left: 200px;
+  top: 70px;
+}
+.custom-shape-divider-bottom-1639102740 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1639102740 svg {
+  width: calc(153% + 1.3px);
+  height: 160px;
+}
+
+.custom-shape-divider-bottom-1639102740 .shape-fill {
+  fill: white;
+}

@@ -1,0 +1,34 @@
+.aboutLayout {
+  height: 95vh;
+  text-align: center;
+  margin-top: 30px;
+  /* border: 1px solid tomato; */
+}
+.aboutBox {
+  display: flex;
+  /* border: 1px solid tomato; */
+  margin-top: 50px;
+}
+.myimg {
+  flex: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myimg img {
+  width: 350px;
+}
+.profile {
+  text-align: left;
+  flex: 1;
+  word-break: keep-all;
+}
+.profile h4 {
+  margin-bottom: 20px;
+  color: #24439e;
+}
+
+.profile p,
+.profile li {
+  margin-bottom: 10px;
+}
